@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cssd;
+package Classes;
+
+import java.io.Serializable;
 
 /**
  *
- * @author Piyu
+ * @author wolf
  */
-public class Sensor {
+public class SensorStation implements Serializable {
     
 }
