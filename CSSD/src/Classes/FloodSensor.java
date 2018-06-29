@@ -12,5 +12,5 @@ import java.io.Serializable;
  * @author wolf
  */
 public class FloodSensor implements Serializable {
-    
+  
 }

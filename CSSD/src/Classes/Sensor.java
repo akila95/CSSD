@@ -12,5 +12,22 @@ import java.io.Serializable;
  * @author wolf
  */
 public class Sensor implements Serializable {
+     private String sensorID;
+
+    public Sensor(String sensorID) {
+        this.sensorID = sensorID;
+    }
+    
+    public String getSensorID() {
+        return sensorID;
+    }
+
+    public void setSensorID(String sensorID) {
+        this.sensorID = sensorID;
+    }
+   
+
+   
+    
     
 }

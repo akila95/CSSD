@@ -12,5 +12,28 @@ import java.io.Serializable;
  * @author wolf
  */
 public class Location implements Serializable {
+
+    public Location(Double latitude, Double Longitude) {
+        this.latitude = latitude;
+        this.Longitude = Longitude;
+    }
+    private Double latitude;
+    private Double Longitude;
+
+    public Double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(Double latitude) {
+        this.latitude = latitude;
+    }
+
+    public Double getLongitude() {
+        return Longitude;
+    }
+
+    public void setLongitude(Double Longitude) {
+        this.Longitude = Longitude;
+    }
     
 }
